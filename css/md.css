@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+video {
+	display: none;
+}
+
+#circle {
+	border-radius: 50%;
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#video-demo {
+	position: absolute;
+	top: 150px;
+	left: 10px;
+}
+
+#canvas-blended {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#xylo {
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid yellow;
+}
+#xylo #back {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:0;
+}
+#xylo #front {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:1;
+	width: 640px;
+	margin: 0px;
+	padding: 0px;
+}
+#xylo #back img, #xylo #front img {
+	margin: 0px;
+	padding: 0px;
+}
+#xylo #front img {
+	position: absolute;
+	display: none;
+}
+#xylo #note0 { left: 0px; }
+#xylo #note1 { left: 544px; }
